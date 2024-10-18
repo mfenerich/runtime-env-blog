@@ -1,6 +1,6 @@
 ---
 layout: post
-title: k8s-project-introduction
+title: Introduction to k8s first project
 date: 2024-10-18 16:23 +0200
 ---
 
