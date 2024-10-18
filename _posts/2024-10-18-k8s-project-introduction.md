@@ -20,5 +20,5 @@ However, to reach that point, we need to go through several important steps. We'
 
 Once that's done, we'll move on to a quick overview of setting up an AWS account, including permissions and automated deployment. In the future, we might even extend this to other cloud providers. And finally, we’ll have everything up and running.
 
-That is great. See you in the next post where we are going to actually start the our impossible mission.
+That is great. See you in the next post where we are going to actually start our impossible mission.
 
