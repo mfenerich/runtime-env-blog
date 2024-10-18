@@ -1,11 +1,7 @@
 ---
-
 layout: post
-
 title: k8s-project-introduction
-
 date: 2024-10-18 16:23 +0200
-
 ---
 
 # Running your first Kubernetes (k8s) project
