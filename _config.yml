@@ -28,12 +28,9 @@ twitter_username: marcelfenerich
 github_username:  mfenerich
 
 # Build settings
-# theme: minima
+theme: minima
 plugins:
   - jekyll-feed
-
-highlighter-theme: monokai //you can change your syntax color scheme.
-date_format: "%Y-%M-%D" //and date format.
 
 # Exclude from processing.
 # The following items will not be processed, by default.
