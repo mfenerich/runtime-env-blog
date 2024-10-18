@@ -1,2 +1,7 @@
+{% if site.google_analytics and jekyll.environment == 'production' %}
 {% include analytics.liquid %}
+{% endif %}
+
+{% if site.consentmanager and jekyll.environment == 'production' %}
 {% include consent.liquid %}
+{% endif %}
