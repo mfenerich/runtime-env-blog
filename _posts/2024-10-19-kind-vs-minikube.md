@@ -6,11 +6,11 @@ categories: Kubernetes
 comments: true
 ---
 
-# 🚀 Introduction
+## 🚀 Introduction
 
 I've decided to create this post to complement my series about **Our First Kubernetes (k8s) Project**. Since I opted to use **Kind** over **Minikube**, I thought it would be helpful to explain what each of them are, highlight their main differences, and finally, why I chose Kind for my project. 💡
 
-## 🤔 What Are They Used For?
+### 🤔 What Are They Used For?
 
 Let’s start by understanding what these tools actually do. 🛠️
 
@@ -20,7 +20,7 @@ Both tools are excellent for running local k8s clusters, making them perfect for
 
 ---
 
-# 🏠 Minikube
+## 🏠 Minikube
 
 [Minikube](https://minikube.sigs.k8s.io/docs/) is primarily designed to run a **local, single-node Kubernetes cluster**. It creates a virtual machine (or container-based environment) on your local machine and runs Kubernetes inside it. 🖥️
 
@@ -30,7 +30,7 @@ It’s super easy to install and configure, giving you a quick and smooth experi
 
 ---
 
-# 🐳 Kind (Kubernetes in Docker)
+## 🐳 Kind (Kubernetes in Docker)
 
 [Kind](https://kind.sigs.k8s.io/), on the other hand, focuses on running Kubernetes clusters **inside Docker containers**. 🐋 It’s particularly useful for **Kubernetes testing** and **CI/CD pipelines** because of its simplicity and speed. ⏩
 
@@ -40,7 +40,7 @@ Kind runs a **multi-node Kubernetes cluster** entirely in Docker containers. Thi
 
 ---
 
-# ⚖️ Comparison
+## ⚖️ Comparison
 
 - **Minikube**: Provides a **single-node** Kubernetes experience with various virtualization options.
 - **Kind**: Offers a **multi-node, container-based** Kubernetes setup with fast, efficient deployments for testing and CI/CD.

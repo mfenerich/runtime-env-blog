@@ -1,13 +1,13 @@
 ---
 
-layout: post  
+layout: post
 title: "K8s Project - Creating a Docker Container - Part I"
-date: 2024-10-19 13:09 +0200  
-categories: Kubernetes  
+date: 2024-10-19 13:09 +0200
+categories: Kubernetes
 comments: true
 ---
 
-# 🚀 Introduction
+## 🚀 Introduction
 
 Before we dive into creating a Kubernetes (K8s) cluster, it's essential to first create the Docker container we'll orchestrate, right? Yes! So let's create a very simple Docker container. Of course, we know that if you have only one or two containers, you don’t need K8s. But we’re doing this for learning purposes. 😊
 
@@ -15,12 +15,12 @@ Before we begin, I'd like to emphasize that Docker is not the only container run
 
 We’ll create an Nginx container to serve a static webpage. It’s perfect for our purpose: keeping a container running indefinitely, having something visual to check (the webpage), and later on using Kubernetes Service, Ingress Controllers, Load Balancers, and other cool K8s features to make our amazing website available to the world. 🌍
 
-# 🔧 What You’ll Need to Accomplish This First Step
+## 🔧 What You’ll Need to Accomplish This First Step
 
 - Docker installation. Here’s the [official link](https://docs.docker.com/engine/install/) on how to install Docker on your machine.
 - A text editor.
 
-# 🛠️ Create Our Docker Container
+## 🛠️ Create Our Docker Container
 
 Let’s get started by creating our simple static website and “dockerizing” it.
 
@@ -67,7 +67,7 @@ docker run --rm -p 8080:80 my-static-website
 
 If everything went well, you can open your browser and visit:
 
-```
+```bash
 http://localhost:8080/
 ```
 
