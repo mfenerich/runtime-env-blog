@@ -77,6 +77,6 @@ You should see something like this:
 
 Great job.
 
-See you in the next post.
+See you in the [Part II]({% post_url 2024-10-19-k8s-project-installing-and-setting-up-kind-part-ii %}).
 
 Enjoy ;)
