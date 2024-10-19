@@ -4,7 +4,7 @@ layout: post
 title: "K8s Project - Creating a Docker Container - Part I"
 date: 2024-10-19 13:09 +0200  
 categories: Kubernetes  
-
+comments: true
 ---
 
 # 🚀 Introduction
