@@ -4,26 +4,15 @@ title:  "Welcome to Fenerich's Blog"
 date:   2024-10-18 12:54:14 +0200
 categories: Welcome
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# Welcome to Feneri.ch!
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Hello and welcome to my blog!
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+My name is Marcel Fenerich and this is a space where I’ll be sharing insights, experiences, and knowledge gathered from years of working in software development and architecture. Whether you're here to learn about backend engineering, explore new technologies, or just curious about the world of programming, I hope you'll find something valuable.
 
-Jekyll also offers powerful support for code snippets:
+I'll be covering topics like API design, software architecture, cloud technologies, and more, as well as sharing lessons learned from projects I've worked on. Expect a mix of technical deep dives, practical tips, and reflections on the evolving landscape of technology.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Thank you for stopping by, and I hope you enjoy the content! Feel free to reach out or leave a comment—I'm excited to connect with like-minded individuals.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Stay tuned for more!
