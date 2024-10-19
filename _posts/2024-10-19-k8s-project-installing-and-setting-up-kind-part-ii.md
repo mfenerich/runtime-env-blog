@@ -10,7 +10,7 @@ comments: true
 
 # 🚀 Introduction
 
-For this project, we will be using **Kind**, not **Minikube**. Both tools are excellent, but Kind is simpler, lighter, and perfectly suited for our needs. You can compare both in more detail in my previous blog post: [Kind Vs Minikube]({% post_url 2024-10-19-k8s-project-installing-and-setting-up-kind-part-ii %}).
+For this project, we will be using **Kind**, not **Minikube**. Both tools are excellent, but Kind is simpler, lighter, and perfectly suited for our needs. You can compare both in more detail in my previous blog post: [Kind Vs Minikube]({% post_url 2024-10-19-kind-vs-minikube %}).
 
 # 🔧 What You’ll Need
 
