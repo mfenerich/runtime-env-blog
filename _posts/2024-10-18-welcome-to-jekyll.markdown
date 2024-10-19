@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Fenerich's Blog"
 date:   2024-10-18 12:54:14 +0200
+comments: true
 categories: Welcome
 ---
 
