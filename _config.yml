@@ -39,8 +39,8 @@ google_analytics: G-K9TDVXHCZQ
 consentmanager: 3efd495d0105b
 
 # Disqus
-# disqus:
-#   shortname: feneri-ch
+disqus:
+  shortname: feneri-ch
 
 # Exclude from processing.
 # The following items will not be processed, by default.
