@@ -5,8 +5,9 @@ title: "K8s Project - Installing and Setting Up Kind - Part II"
 date: 2024-10-19 18:04 +0200
 categories: Kubernetes
 comments: true
-
 ---
+
+👉 If you missed the first part, check out [Part I]({% post_url 2024-10-19-k8s-project-creating-docker-container-part-i %}).
 
 ## 🚀 Introduction
 
@@ -187,4 +188,4 @@ myks8project-control-plane   Ready    control-plane   17m   v1.31.0
 
 That’s it! You’ve successfully set up a Kubernetes cluster with Kind. 🎉 Great job!
 
-👉 If you missed the first part, check out [Part I]({% post_url 2024-10-19-k8s-project-creating-docker-container-part-i %}).
+See you in the [Part III]({% post_url 2024-10-21-k8s-project-creating-a-local-docker-registry-part-iii %}).
