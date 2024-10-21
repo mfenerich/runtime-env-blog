@@ -36,7 +36,7 @@ Enough chit-chat. Let’s dive into how you can get your local Docker registry u
    Now, let me break that down for you in human terms:
 
    - **docker run**: You're starting a new Docker container. Simple, right?
-   - **--name local-registry**: You're calling this container “local-registry” because naming things is important, even containers. You wouldn’t just call your cat “cat,” right? 
+   - **--name local-registry**: You're calling this container “local-registry” because naming things is important, even containers. You wouldn’t just call your cat “cat,” right?
    - **-d**: This runs the container in detached mode, which is fancy talk for “I don’t need to watch you work.”
    - **--restart=always**: If it breaks, Docker will put it back together. This container is practically self-healing!
    - **-p 5000:5000**: This maps port 5000 on your machine to port 5000 in the container. Think of it like creating a little door that Docker can go through.
@@ -106,9 +106,9 @@ That’s it! Not too scary, right?
 
 ### 📦 Adding a ConfigMap for the Local Registry
 
-Hold on, we’re not done yet! There’s one more little thing to do before Kubernetes can fully appreciate your local Docker registry: the **ConfigMap**. 
+Hold on, we’re not done yet! There’s one more little thing to do before Kubernetes can fully appreciate your local Docker registry: the **ConfigMap**.
 
-Think of ConfigMaps like Kubernetes’ way of passing around notes, saying “Hey, here’s some important configuration data for you to know.” In this case, we’ll use a ConfigMap to let Kubernetes know all about our local registry. 
+Think of ConfigMaps like Kubernetes’ way of passing around notes, saying “Hey, here’s some important configuration data for you to know.” In this case, we’ll use a ConfigMap to let Kubernetes know all about our local registry.
 
 Here’s what your `kind_configmap.yaml` file will look like:
 
@@ -154,7 +154,7 @@ Alright, we’ve done all the hard work, and now it’s time to see everything i
    ./kind create cluster --image=kindest/node:v1.21.12 --name myks8project --config ./kind_config.yaml
    ```
 
-   **What’s that `kindest/node:v1.21.12`?** 
+   **What’s that `kindest/node:v1.21.12`?**
 
    Glad you asked! The `kindest/node:v1.21.12` image is a specific version of the Kubernetes node that Kind uses to simulate a Kubernetes cluster. Think of it like the operating system for each Kubernetes node. Version `v1.21.12` refers to a stable Kubernetes release that you can use in your local Kind environment. The "kindest" part is just the name that the Kind project uses for its node images. You can swap this version for other versions if you need to test your cluster on different Kubernetes releases, but here we're going with `v1.21.12` for stability and compatibility.
 
@@ -185,4 +185,3 @@ And that’s a wrap! We’ve set up a local Docker registry, configured it in ou
 As always, keep experimenting, and don’t hesitate to dive deeper into the wild world of Kubernetes. And remember: YAML files may look intimidating, but with a bit of practice (and the occasional Google search), they’ll become your best friend. Happy coding!
 
 👉 *Part IV comming soon...*
-
