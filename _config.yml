@@ -20,9 +20,6 @@
 
 title: Runtime Env
 email: marcel@feneri.ch
-description: >- # this means to ignore newlines until "baseurl:"
-  This is a website where you can find amazing code tutorials and curiosities about
-  tech, dev and devops.
 url: "https://feneri.ch" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: marcelfenerich
 github_username:  mfenerich
@@ -31,6 +28,7 @@ github_username:  mfenerich
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Google Analytics
 google_analytics: G-K9TDVXHCZQ
@@ -42,22 +40,17 @@ consentmanager: 3efd495d0105b
 disqus:
   shortname: feneri-ch
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# SEO config
+
+# Basic SEO settings
+tagline: "Insights and strategies for building scalable, reliable systems."
+description: "A blog dedicated to sharing knowledge and experiences from over a decade in software engineering. Covering everything from architecture best practices to hands-on project insights, this space is for professionals looking to learn, experiment, and stay updated in the fast-evolving world of tech."
+author: "Marcel Fenerich"
+
+# Social media profiles
+social:
+  name: Marcel Fenerich
+  links:
+    - https://www.linkedin.com/in/marcel-fenerich-82a104a3/
+
+google_site_verification: 6AKp3usog4L3k7IA7ZIX2hQxmVjv_er9dbXQzE9BYOM

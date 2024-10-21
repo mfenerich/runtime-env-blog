@@ -36,3 +36,6 @@ gem "webrick", "~> 1.8"
 
 # Add jekyll-compose
 gem "jekyll-compose", group: [:jekyll_plugins]
+
+# Add Jekyll SEO Tag
+gem 'jekyll-seo-tag'

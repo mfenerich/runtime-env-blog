@@ -4,6 +4,7 @@ title: Kind vs Minikube
 date: 2024-10-19 11:39 +0200
 categories: Kubernetes
 comments: true
+author: "Marcel Fenerich"
 ---
 
 ## 🚀 Introduction

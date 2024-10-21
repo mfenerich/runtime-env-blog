@@ -5,6 +5,7 @@ title: "K8s Project - Installing and Setting Up Kind - Part II"
 date: 2024-10-19 18:04 +0200
 categories: Kubernetes
 comments: true
+author: "Marcel Fenerich"
 ---
 
 👉 If you missed the first part, check out [Part I]({% post_url 2024-10-19-k8s-project-creating-docker-container-part-i %}).

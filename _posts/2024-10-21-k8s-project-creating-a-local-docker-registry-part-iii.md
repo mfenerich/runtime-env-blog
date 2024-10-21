@@ -4,6 +4,7 @@ title: "k8s Project - Mastering Local Docker Registries with Kind: A Step-by-Ste
 date: 2024-10-21 13:37 +0200
 categories: Kubernetes
 comments: true
+author: "Marcel Fenerich"
 ---
 
 👉 If you missed the previous part, check out [Part II]({% post_url 2024-10-19-k8s-project-installing-and-setting-up-kind-part-ii %}).

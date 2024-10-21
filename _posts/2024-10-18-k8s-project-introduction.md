@@ -4,6 +4,7 @@ title: Introduction to k8s first project
 date: 2024-10-18 16:23 +0200
 categories: Kubernetes
 comments: true
+author: "Marcel Fenerich"
 ---
 
 ## Running your first Kubernetes (k8s) project

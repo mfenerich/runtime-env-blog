@@ -4,6 +4,7 @@ title:  "Welcome to my blog"
 date:   2024-10-18 12:54:14 +0200
 categories: Welcome
 comments: true
+author: "Marcel Fenerich"
 ---
 
 # Welcome to Feneri.ch!
