@@ -121,12 +121,6 @@ With our deployment manifest ready, it’s time to apply it and create the actua
     kubectl apply -f deployment.yaml
     ```
 
-    If everything works smoothly, you should see a confirmation message like:
-
-    ```bash
-    kubectl port-forward deployment/myks8project 8080:80
-    ```
-
 2. **Verify the deployment** by listing the pods associated with it:
 
     ```bash
