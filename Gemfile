@@ -42,3 +42,6 @@ gem 'jekyll-seo-tag'
 
 # Add Jekyll Email Protect
 gem 'jekyll-email-protect'
+
+# Add Jekyll Sitemap generator
+gem 'jekyll-sitemap'

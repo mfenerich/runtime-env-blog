@@ -30,6 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-email-protect
+  - jekyll-sitemap
 
 # Google Analytics
 google_analytics: G-K9TDVXHCZQ
