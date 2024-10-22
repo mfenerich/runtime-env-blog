@@ -39,3 +39,6 @@ gem "jekyll-compose", group: [:jekyll_plugins]
 
 # Add Jekyll SEO Tag
 gem 'jekyll-seo-tag'
+
+# Add Jekyll Email Protect
+gem 'jekyll-email-protect'

@@ -27,7 +27,7 @@ Currently based in Switzerland, I’ve had the chance to work on projects across
 Feel free to connect with me:
 
 - [LinkedIn](https://www.linkedin.com/in/marcel-fenerich-82a104a3/)
-- Email me at: <a href="mailto:{{ site.mail }}">marcel@feneri.ch</a>
+- Email me at: <a href="mailto:{{ site.email | encode_email }}">marcel@feneri.ch</a>
 
 
 Thanks for visiting my blog! Feel free to explore, and I’d love to hear your thoughts if something resonates with you.
