@@ -185,4 +185,4 @@ And that’s a wrap! We’ve set up a local Docker registry, configured it in ou
 
 As always, keep experimenting, and don’t hesitate to dive deeper into the wild world of Kubernetes. And remember: YAML files may look intimidating, but with a bit of practice (and the occasional Google search), they’ll become your best friend. Happy coding!
 
-👉 *Part IV comming soon...*
+See you in the [Part IV]({% post_url 2024-10-22-k8s-project-creating-a-deployment-with-kubernetes-part-iv %}).
