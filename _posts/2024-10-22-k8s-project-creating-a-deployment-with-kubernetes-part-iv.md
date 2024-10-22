@@ -36,15 +36,15 @@ Here’s how to do it:
     ```bash
     Using default tag: latest
     The push refers to repository [localhost:5000/my-static-website]
-    fc3d5e2745da: Layer already exists 
-    af19c9fda5c9: Layer already exists 
-    9c748015f5b4: Layer already exists 
-    347076dd9c82: Layer already exists 
-    031c892f6794: Layer already exists 
-    baca49726296: Layer already exists 
-    98591063c9e4: Layer already exists 
-    86aa2ad58202: Layer already exists 
-    16113d51b718: Layer already exists 
+    fc3d5e2745da: Layer already exists
+    af19c9fda5c9: Layer already exists
+    9c748015f5b4: Layer already exists
+    347076dd9c82: Layer already exists
+    031c892f6794: Layer already exists
+    baca49726296: Layer already exists
+    98591063c9e4: Layer already exists
+    86aa2ad58202: Layer already exists
+    16113d51b718: Layer already exists
     latest: digest: sha256:a8a257ac5996ebbba7cc7893233fec86137cb3168a037eee9358731de4a96be8 size: 2196
     ```
 
@@ -151,7 +151,7 @@ With our deployment manifest ready, it’s time to apply it and create the actua
 Now that our deployment is live, let's revisit some key concepts:
 
 - **Replicas**: Defines the number of identical pods you want Kubernetes to maintain. Our deployment creates one replica by default, but you can scale this up or down.
-  
+
 - **Selectors**: Allow you to target and identify resources by their labels. We used the label `app=myks8project` to find all pods associated with this deployment.
 
 - **Template**: Under `spec.template`, we define the pod template, including the container image, name, and ports.
@@ -188,7 +188,7 @@ it means the forwarding has started successfully.
 
 Finally, let’s test the deployment! Open your browser and head to:
 
-```
+```bash
 http://localhost:8080
 ```
 
