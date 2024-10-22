@@ -121,7 +121,7 @@ metadata:
   namespace: kube-public
 data:
   localRegistryHosting.v1: |
-    host: "localhost:${reg_port}"
+    host: "localhost:5001"
     help: "https://kind.sigs.k8s.io/docs/user/local-registry/"
 ```
 
