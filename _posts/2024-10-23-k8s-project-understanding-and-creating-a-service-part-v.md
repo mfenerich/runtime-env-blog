@@ -186,4 +186,4 @@ Congrats! You’ve now leveled up your Kubernetes game by creating a service tha
 
 But there’s more! In the next part, we’ll dive deeper into **ingress controllers**, which take this a step further by exposing your services to the outside world with real domain names. Ready to learn how to make your app publicly accessible? Stay tuned for more Kubernetes adventures!
 
-👉 *Part VI coming soon...*
+See you in the [Part VI]({% post_url 2024-10-23-k8s-project-setting-up-an-ingress-part-vi %}).
