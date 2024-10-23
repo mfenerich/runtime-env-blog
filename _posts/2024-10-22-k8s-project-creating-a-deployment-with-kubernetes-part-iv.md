@@ -196,4 +196,4 @@ And there you have it! You’ve successfully deployed your Dockerized applicatio
 
 Stay tuned for more as we continue to build out our Kubernetes project and explore the endless possibilities of cloud-native development!
 
-👉 *Part V comming soon...*
+See you in the [Part V]({% post_url 2024-10-23-k8s-project-understanding-and-creating-a-service-part-v %}).
