@@ -86,7 +86,7 @@ Now that our service manifest is ready, let’s apply it and create the service 
 
     If everything goes well, you’ll see a message like:
 
-    ```
+    ```bash
     service/myks8project created
     ```
 
@@ -116,7 +116,7 @@ Alright, our service is now live and should be routing traffic to our pods. But 
 
     Head to your browser and open:
 
-    ```
+    ```bash
     http://localhost:8080
     ```
 
@@ -164,10 +164,10 @@ replicaset.apps/myks8project-79cd67c7cc   1         1         1       23h
 
 Let’s break down what we’re seeing:
 
-1. **Pods**: 
+1. **Pods**:
    - The pod `myks8project-79cd67c7cc-5rfnf` is listed under the `pod/` section, indicating that one replica of our app is currently running (`1/1` under **READY**). This means our app is successfully running inside the Kubernetes cluster.
-   
-2. **Service**: 
+
+2. **Service**:
    - The `service/myks8project` entry shows the **ClusterIP** service we created earlier. This service is accessible internally within the cluster through the IP `10.96.46.222` and is exposing port **80**. There’s no **EXTERNAL-IP** here because we haven’t set it up for external access yet, which is fine for now.
 
 3. **Deployment**:

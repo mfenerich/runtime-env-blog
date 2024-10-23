@@ -158,7 +158,7 @@ This tells your computer that any traffic to `myks8project` should go to `localh
 
 Moment of truth—let’s see if everything’s working! Open up your browser and go to:
 
-```
+```bash
 http://myks8project
 ```
 
