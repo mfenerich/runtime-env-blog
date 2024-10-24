@@ -194,10 +194,10 @@ Looks like everything is up and running smoothly!
 
 ---
 
-### 🧑‍💻 Wrapping Up
+## 🌟 Final Thoughts
 
 And there you have it! We’ve successfully set up an Ingress in Kubernetes, created routing rules, and even faked a DNS entry to make it all work on your local machine. You’re one step closer to having a fully operational Kubernetes setup!
 
 Next up, we’ll dive into scaling and monitoring your services to make sure your app is ready to handle traffic like a pro. Stay tuned!
 
-👉 *Part VII coming soon...*
+See you in the [Part VII]({% post_url 2024-10-24-k8s-project-simplifying-kubernetes-with-helm-part-vii %}).

@@ -180,7 +180,7 @@ Using the `-l app=myks8project` filter is not only useful for viewing all relate
 
 ---
 
-### 🧑‍💻 Wrapping Up
+## 🌟 Final Thoughts
 
 Congrats! You’ve now leveled up your Kubernetes game by creating a service that manages traffic routing within your cluster. No more manual port forwarding—now you’ve got a scalable, maintainable way to access your app. 🙌
 
