@@ -17,7 +17,7 @@ But fear not, friends! [Helm](https://helm.sh/) is here to save the day and make
 
 ### 🧐 What Is Helm?
 
-Helm is like the package manager of Kubernetes—think of it as Kubernetes’ version of apt or yum. Instead of manually applying your Kubernetes manifests (and deleting and reapplying them when something changes), Helm packages all those YAML files into a neat little artifact called a **Helm Chart**. With Helm, you can install, upgrade, or uninstall your entire app with a single command. 
+Helm is like the package manager of Kubernetes—think of it as Kubernetes’ version of apt or yum. Instead of manually applying your Kubernetes manifests (and deleting and reapplying them when something changes), Helm packages all those YAML files into a neat little artifact called a **Helm Chart**. With Helm, you can install, upgrade, or uninstall your entire app with a single command.
 
 Imagine running `helm install my-app` and having your whole app—deployments, services, ingress—spun up without breaking a sweat. If you need to change something, just update the Helm template, and then run `helm upgrade`. It’s as simple as that!
 
@@ -123,6 +123,7 @@ serviceName: myks8project
 serviceAddress: myks8project
 servicePort: 8080
 ```
+
 ---
 
 ### 🏗️ Step 4: Templatizing Kubernetes Manifests
@@ -242,14 +243,16 @@ Before deploying our app with Helm, we need to clean up any existing Kubernetes 
 Let’s delete all the resources associated with the app:
 
 1. **Delete all resources** (Pods, Services, etc.) created earlier using the following command:
-   ```bash
-   kubectl delete all -l app=myks8project
-   ```
+
+    ```bash
+    kubectl delete all -l app=myks8project
+    ```
 
 2. **Delete the Ingress** resource specifically:
-   ```bash
-   kubectl delete ingress myks8project
-   ```
+
+    ```bash
+    kubectl delete ingress myks8project
+    ```
 
 This ensures that Helm can start with a clean slate and manage everything from here on out.
 
@@ -267,7 +270,7 @@ This will output your Kubernetes manifests with the values from `values.yaml` su
 
 Once you’re happy with the output, let’s deploy it:
 
-### Installation Command:
+### Installation Command
 
 ```bash
 helm upgrade --atomic --install myks8project-website ./chart
