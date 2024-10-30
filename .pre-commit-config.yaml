@@ -14,3 +14,12 @@ repos:
         description: Remove trailing whitespace
       - id: end-of-file-fixer
         description: Ensure file ends with a newline
+
+  # Hook for minifying Jekyll assets
+  - repo: local
+    hooks:
+      - id: minify-jekyll-assets
+        name: Minify Jekyll CSS and JavaScript
+        entry: ./minify_jekyll_assets.sh
+        language: script
+        files: "\\.(js|css)$"
