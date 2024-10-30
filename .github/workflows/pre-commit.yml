@@ -20,7 +20,7 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '12'
+        node-version: '22'
 
     - name: Install npm packages for minification
       run: |
