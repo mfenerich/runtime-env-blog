@@ -1,11 +1,17 @@
 #!/bin/bash
 
-# Minify all JavaScript files in the assets/js/ folder
+# Minify JavaScript files in the assets/js/ folder
 for file in assets/js/*.js; do
-  terser "$file" -o "${file%.js}.min.js"
+  # Skip files that already have .min in their name
+  if [[ $file != *.min.js ]]; then
+    terser "$file" -o "${file%.js}.min.js"
+  fi
 done
 
-# Minify all CSS files in the assets/css/ folder
+# Minify CSS files in the assets/css/ folder
 for file in assets/css/*.css; do
-  cssnano "$file" "${file%.css}.min.css"
+  # Skip files that already have .min in their name
+  if [[ $file != *.min.css ]]; then
+    cssnano "$file" "${file%.css}.min.css"
+  fi
 done
