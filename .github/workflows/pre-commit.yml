@@ -17,6 +17,15 @@ jobs:
       with:
         python-version: '3.x'
 
+    - name: Install Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '12'
+
+    - name: Install npm packages for minification
+      run: |
+        npm install -g terser cssnano
+
     - name: Install pre-commit
       run: |
         python -m pip install --upgrade pip
