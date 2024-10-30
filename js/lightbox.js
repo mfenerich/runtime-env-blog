@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('lightbox').style.display = 'none';
         }
     });
-    
+
     //add the youtube lightbox on click
     var elements = document.querySelectorAll('a.lightbox-youtube');
     elements.forEach(element => {
