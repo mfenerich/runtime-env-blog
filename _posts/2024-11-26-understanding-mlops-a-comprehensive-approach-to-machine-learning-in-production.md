@@ -41,8 +41,6 @@ Continuous delivery in MLOps is like assembling IKEA furniture—everything has 
 
 This approach is inspired by **kaizen**, the Japanese philosophy of continuous improvement. It’s like leveling up in a video game 🎮, but for software systems. And guess what? It works.
 
-> **Image suggestion**: An assembly line graphic showing "Code → Staging → Production," with little progress bars and tools scattered around.
-
 [![CI/CD MLOps](/assets/images/MLOpscicd.jpg)](/assets/images/MLOpscicd.jpg)
 
 ---
