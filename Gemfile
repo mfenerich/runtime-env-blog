@@ -45,3 +45,6 @@ gem 'jekyll-email-protect'
 
 # Add Jekyll Sitemap generator
 gem 'jekyll-sitemap'
+
+# Add Jekyll jekyll-gist
+gem 'jekyll-gist'
