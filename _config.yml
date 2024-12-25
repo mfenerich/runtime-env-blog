@@ -33,6 +33,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
 
+header_pages:
+  - about.markdown
+
 # Google Analytics
 google_analytics: G-K9TDVXHCZQ
 

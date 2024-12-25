@@ -3,6 +3,7 @@ layout: page
 title: Privacy Policy
 date: 2024-12-25 18:24 +0100
 permalink: /privacy-policy/
+hidden: true
 ---
 
 ## Privacy Policy

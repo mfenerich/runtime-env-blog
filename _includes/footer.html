@@ -14,10 +14,10 @@
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
         </ul>
       </div>
 
@@ -26,6 +26,11 @@
       </div>
 
       <div class="footer-col footer-col-3">
+        <ul class="footer-links">
+          <li><a href="{{ "/legal-notice/" | relative_url }}">Legal Notice</a></li>
+          <li><a href="{{ "/terms-and-conditions/" | relative_url }}">Terms and Conditions</a></li>
+          <li><a href="{{ "/privacy-policy/" | relative_url }}">Privacy Policy</a></li>
+        </ul>
         <p>{{- site.description | escape -}}</p>
       </div>
     </div>
@@ -35,5 +40,4 @@
   <!-- Add lightbox -->
   <script type="text/javascript" src="/assets/js/lightbox.min.js"></script>
   <link rel="stylesheet" href="/assets/css/lightbox.min.css">
-
 </footer>
