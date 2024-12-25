@@ -14,8 +14,8 @@ This Legal Notice is issued by [https://feneri.ch](https://feneri.ch) and provid
 
 #### **Website Owner**
 
-- **Name**: {{ site.email }}
-- **Contact Email**: {{ site.social.name }}
+- **Name**: {{ site.social.name }}
+- **Contact Email**: {{ site.email }}
 
 #### **Hosting Provider**
 
