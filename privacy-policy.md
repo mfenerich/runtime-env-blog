@@ -5,10 +5,6 @@ date: 2024-12-25 18:24 +0100
 permalink: /privacy-policy/
 ---
 
-Here’s the updated privacy policy to include the use of ConsentManager for cookie management:
-
----
-
 ## Privacy Policy
 
 **Effective Date**: 25/12/2024
