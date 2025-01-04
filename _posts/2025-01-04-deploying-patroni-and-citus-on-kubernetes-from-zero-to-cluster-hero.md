@@ -378,8 +378,4 @@ To try this setup locally without impacting existing Kubernetes clusters, you ca
 
 ---
 
-## **Next Steps 🌈**
-
-In upcoming posts, we’ll delve into **dynamic scaling** (adding/removing worker nodes on the fly), **monitoring** your cluster with metrics, and **handling failovers** gracefully. With your Patroni + Citus cluster running on Kubernetes, you’re well on your way to delivering a fault-tolerant, scalable PostgreSQL infrastructure. At this point, your data is safer than that last slice of pizza in a dorm-room fridge (just watch out for hungry roommates!). 🍕👀
-
 **Got questions or feedback?** Feel free to drop a comment below or open an issue in the [GitHub repository](https://github.com/mfenerich/patroni-citus-demo). Until next time, happy clustering!

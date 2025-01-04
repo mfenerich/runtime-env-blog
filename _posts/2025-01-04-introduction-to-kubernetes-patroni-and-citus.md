@@ -72,4 +72,4 @@ Oh, and before we wrap up: in this series, we’ll also perform some tests to se
 
 **What do you think about this post? Share your thoughts or questions in the comments below! Or, if you're feeling adventurous, dive into the [Patroni documentation](https://patroni.readthedocs.io/en/latest/) or the [Citus documentation](https://www.citusdata.com/) to learn more!**
 
-See you in the [Part II]({% post_url 2025-01-04-deploying-patroni-and-citus-on-kubernetes-from-zero-to-cluster-hero.md %}).
+See you in the [Part II]({% post_url 2025-01-04-deploying-patroni-and-citus-on-kubernetes-from-zero-to-cluster-hero %}).
