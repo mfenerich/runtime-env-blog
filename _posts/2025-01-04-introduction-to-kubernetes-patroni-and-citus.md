@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to Kubernetes, Patroni, and Citus
+title: K8s-citus-patroni Project - Introduction to Kubernetes, Patroni, and Citus - Part I
 date: 2025-01-04 16:39 +0100
 description: "An exploration of what Patroni and Citus are, their use cases, and scenarios where they might not be suitable."
 categories:
@@ -71,3 +71,5 @@ Oh, and before we wrap up: in this series, we’ll also perform some tests to se
 ---
 
 **What do you think about this post? Share your thoughts or questions in the comments below! Or, if you're feeling adventurous, dive into the [Patroni documentation](https://patroni.readthedocs.io/en/latest/) or the [Citus documentation](https://www.citusdata.com/) to learn more!**
+
+See you in the [Part II]({% post_url 2025-01-04-deploying-patroni-and-citus-on-kubernetes-from-zero-to-cluster-hero.md %}).
