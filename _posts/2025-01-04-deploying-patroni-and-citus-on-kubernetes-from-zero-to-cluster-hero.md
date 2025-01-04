@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Deploying Patroni and Citus on Kubernetes: From Zero to Cluster Hero - Part 2'
+title: 'K8s-citus-patroni Project - Deploying Patroni and Citus on Kubernetes: From Zero to Cluster Hero - Part II'
 date: 2025-01-04 17:22 +0100
 categories:
   - Kubernetes
