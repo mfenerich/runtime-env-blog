@@ -2,7 +2,7 @@
 layout: post
 title: "ThinkHub: A Developer-Friendly Framework for AI Services"
 description: "Discover ThinkHub, an open-source framework designed to simplify AI service integration with a flexible plugin system. Learn about its architecture, current features, and how you can contribute to its growth. Perfect for developers passionate about building scalable, extensible solutions for AI-driven projects."
-date: 2025-03-03 20:45 +0100
+date: 2025-03-03 11:00+0100
 categories: ai python
 author: "Marcel Fenerich"
 tags: [AI, Python, Plugins, Open-Source, Asyncio, API-Wrapper, Factory-Pattern, Lazy-Loading, Multi-Provider, Type-Hints, LLMs, Language-Models, Multi-Modal, Speech-to-Text, Chat-Streaming, AI-Framework, OpenAI, Anthropic, Google-Cloud, Gemini, Claude, GPT, Poetry, Error-Handling, Dependency-Management, AI-Development-Tools, Rapid-Prototyping, API-Unification, Extensible-Framework]
