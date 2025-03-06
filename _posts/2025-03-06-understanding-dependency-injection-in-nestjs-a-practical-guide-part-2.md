@@ -290,3 +290,9 @@ Dependency Injection in NestJS provides a powerful way to structure your applica
 The three-step process for sharing services between modules is straightforward once you understand it, and it forms the backbone of how NestJS applications are structured.
 
 In the next article, we'll dive deeper into more advanced Dependency Injection concepts in NestJS, including custom providers, dynamic modules, and scoped providers.
+
+**GitHub Repository**: [https://github.com/mfenerich/nest-di](https://github.com/mfenerich/nest-di)
+
+Check the [Part I]({% post_url 2025-03-06-understanding-dependency-injection-in-nestjs-a-practical-guide-part-1 %}).
+
+In the Part III we will delve into more advanced concepts that will give you greater flexibility and control over your application's architecture. See you there.

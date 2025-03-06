@@ -183,3 +183,7 @@ In this first part of our series on Dependency Injection in NestJS, we've covere
 - Building our first module and understanding exports
 
 In the next article, we'll implement the CPU and Disk modules that depend on the Power module, and see how Dependency Injection works across modules in practice.
+
+**GitHub Repository**: [https://github.com/mfenerich/nest-di](https://github.com/mfenerich/nest-di)
+
+See you in the [Part II]({% post_url 2025-03-06-understanding-dependency-injection-in-nestjs-a-practical-guide-part-2 %}).
