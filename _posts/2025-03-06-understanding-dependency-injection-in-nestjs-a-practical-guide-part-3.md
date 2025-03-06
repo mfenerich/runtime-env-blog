@@ -7,6 +7,7 @@ categories: code nestjs
 author: "Marcel Fenerich"
 tags: [NestJS, AdvancedDependencyInjection, CustomProviders, DynamicModules, Testing, TypeScript, SoftwareArchitecture, EnterprisePatterns, BestPractices, AdvancedTutorial]
 comments: true
+published: false
 ---
 
 In our previous articles, we explored the fundamentals of Dependency Injection (DI) in NestJS and how to share services between modules. Now, let's delve into more advanced concepts that will give you greater flexibility and control over your application's architecture.
