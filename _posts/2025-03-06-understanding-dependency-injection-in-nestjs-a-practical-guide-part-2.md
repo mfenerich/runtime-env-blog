@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'Understanding Dependency Injection in NestJS: A Practical Guide - Part 2'
+description: "Dive deeper into sharing services across modules in NestJS as we implement CPU and Disk modules that depend on a common Power service. Master the three-step process for cross-module dependencies and understand how NestJS resolves the dependency tree."
 date: 2025-03-06 13:31 +0100
+categories: code nestjs
 author: "Marcel Fenerich"
+tags: [NestJS, CrossModuleServices, TypeScript, ModuleHierarchy, DependencyInjection, BackendDevelopment, NodeJS, IntermediateTutorial, ServiceInjection, ApplicationDesign]
 comments: true
 ---
 

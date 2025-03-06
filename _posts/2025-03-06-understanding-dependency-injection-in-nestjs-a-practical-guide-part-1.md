@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'Understanding Dependency Injection in NestJS: A Practical Guide - Part 1'
+description: "Learn the fundamentals of Dependency Injection in NestJS through a practical example modeling computer components. This introductory guide covers what DI is, why it matters, and how to implement your first module with proper dependency management."
 date: 2025-03-06 13:25 +0100
+categories: code nestjs
 author: "Marcel Fenerich"
+tags: [NestJS, DependencyInjection, WebDevelopment, TypeScript, Modules, Backend, NodeJS, BeginnerTutorial, SoftwareArchitecture, ModularDesign]
 comments: true
 ---
 

@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'Understanding Dependency Injection in NestJS: A Practical Guide - Part 3'
+description: "Explore advanced Dependency Injection concepts in NestJS including custom providers, scoped instances, dynamic modules, and testing strategies. Learn professional patterns for building flexible, maintainable applications with sophisticated dependency management."
 date: 2025-03-06 13:34 +0100
+categories: code nestjs
 author: "Marcel Fenerich"
+tags: [NestJS, AdvancedDependencyInjection, CustomProviders, DynamicModules, Testing, TypeScript, SoftwareArchitecture, EnterprisePatterns, BestPractices, AdvancedTutorial]
 comments: true
 ---
 
